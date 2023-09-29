@@ -1,0 +1,12 @@
+# Ignorer les fichiers de configuration
+config.ini
+
+# Ignorer le dossier de dépendances Node.js
+node_modules/
+
+# Ignorer les fichiers de sauvegarde de l'éditeur
+*.bak
+
+# Ignorer les fichiers de compilation
+*.class
+*.jar
