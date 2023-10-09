@@ -38,7 +38,7 @@ const Contact = () => {
           })}
           <div className="social_icons">
             {socialIcons.map((socialIcon, index) => {
-              return <div key={index}>{socialIcon}</div>;
+              return <div key={index} href={socialIcon.href}>{socialIcon.icon}</div>;
             })}
           </div>
         </motion.div>

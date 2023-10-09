@@ -1,36 +1,37 @@
 import React from "react";
-import "./About.scss";
+import profile from "../../../assets/profile.png"
+import "./A_propos.scss";
 
 import { motion } from "framer-motion";
 import { bios } from "../../../Data";
 import portfolio from "../../../assets/portfolio.jpg";
-const About = () => {
+const A_propos = () => {
   return (
-    <div className="container " id="about">
+    <div className="container " id="A_propos">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ y: [-50, 0], opacity: 1 }}
         className="title"
       >
         <span>Qui suis je ?</span>
-        <h1>A propos</h1>
+        <h1>A_propos</h1>
       </motion.div>
 
-      <div className="about_container">
+      <div className="A_propos_container">
         <motion.div
           initial={{ x: 0, opacity: 0 }}
           whileInView={{ x: [-250, 0], opacity: 1 }}
           transition={{ duration: 1 }}
-          className="about_left"
+          className="A_propos_left"
         >
           <motion.img
-            src={portfolio}
+            src={profile}
             whileHover={{ y: -48, x: -55 }}
             transition={{ duration: 0.3 }}
           />
         </motion.div>
         <motion.div
-          className="about_right"
+          className="A_propos_right"
           initial={{ x: 0, opacity: 0 }}
           whileInView={{ x: [250, 0], opacity: 1 }}
           transition={{ duration: 1 }}
@@ -65,4 +66,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default A_propos;

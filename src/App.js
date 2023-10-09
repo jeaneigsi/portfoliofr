@@ -1,20 +1,20 @@
 import React from 'react'
 import "./App.css"
-import About from './components/container/About/About'
+import A_propos from './components/container/A_propos/A_propos'
 import Contact from './components/container/Contact/Contact'
 import Footer from './components/container/Footer/Footer'
-import Home from './components/container/Home/Home'
+import Accueil from './components/container/Accueil/Accueil'
 import Portfolio from './components/container/Portfolio/Portfolio'
-import Skills from './components/container/Skills/Skills'
+import Competences from './components/container/Competences/Competences'
 import Navbar from './components/Navbar/Navbar'
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <Home />
-      <About />
-      <Skills />
+      <Accueil />
+      <A_propos />
+      <Competences />
       <Portfolio />
       <Contact />
       <Footer />

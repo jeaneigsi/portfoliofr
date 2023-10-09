@@ -47,7 +47,7 @@ const Navbar = () => {
           className={scroll ? "header active" : "header"}>
           <div className="Nav_container">
               <div className="logo">
-                    <h3>A</h3>
+                    <h3>J.O</h3>
               </div>
               <ul
                       className="nav_links"
@@ -59,7 +59,7 @@ const Navbar = () => {
               <div className="social_icons" >
                   {socialIcons.map((socialIcon, index) => {
                   return (
-                      <div key={index}>
+                      <div key={index} h>
                           {socialIcon}
                       </div>
                   )

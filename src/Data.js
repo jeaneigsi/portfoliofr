@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaDribbble, FaInstagram, FaLinkedin , FaPhp, FaPython,FaJava} from "react-icons/fa";
+import {  FaNodeJs, FaReact, FaFigma, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaDribbble, FaInstagram, FaLinkedin , FaPhp, FaPython,FaJava} from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import { BsMedium } from "react-icons/bs";
@@ -10,7 +10,7 @@ import work4 from "./assets/work4.png";
 import work5 from "./assets/work5.png";
 import work6 from "./assets/work6.png";
 
-export const navLinks = ["home", "about", "skills", "portfolio", "contact"]
+export const navLinks = ["Accueil", "A_propos", "Competences", "portfolio", "contact"]
 
 export const socialIcons = [
   <FaDribbble />,
@@ -36,7 +36,7 @@ export const bios = [
     id: 3,
     icon: <FaPaperPlane />,
     key: "Email",
-    value: "bjo.lompo.25@eigsica.ma"
+    value: "lompojeanolivier2002@gmail.com"
   }
 ]
 
@@ -91,37 +91,49 @@ export const workImages = [
     id: 1,
     img: work1,
     name: "project 1",
-    category: "web"
+    category: "web",
+    link: "https://github.com/jeaneigsi/projetecom",
+    prev:"https://projetecom.vercel.app/"
   },
   {
     id: 2,
     img: work2,
     name: "project 2",
-    category: "web"
+    category: "web",
+    link: "https://github.com/jeaneigsi/portfolio" ,
+    prev:"#"
   },
   {
     id: 3,
     img: work3,
     name: "project 3",
-    category: "web"
+    category: "web",
+    link: "https://github.com/jeaneigsi/portfolio" ,
+    prev:"#"
   },
   {
     id: 4,
     img: work4,
     name: "project 4",
-    category: "app"
+    category: "app" ,
+    link: "https://github.com/jeaneigsi/portfolio" ,
+    prev:"#"
   },
   {
     id: 5,
     img: work5,
     name: "project 5",
-    category: 'app'
+    category: 'app' ,
+    link: "https://github.com/jeaneigsi/portfolio" ,
+    prev:"#"
   },
   {
     id: 6,
     img: work6,
     name: "project 6",
-    category: "design"
+    category: "design",
+    link: "https://github.com/jeaneigsi/portfolio" ,
+    prev:"#"
   }
 ]
 

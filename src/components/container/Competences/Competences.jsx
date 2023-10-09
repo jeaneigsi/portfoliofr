@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
-import "./Skills.scss";
+import "./Competences.scss";
 import { icons } from '../../../Data';
 import { experiences } from '../../../Data';
 import { finishes } from '../../../Data';
 import { motion } from 'framer-motion';
-const Skills = () => {
+const Competences = () => {
   const [active, setActive] = useState(1)
   return (
-    <div className="container" id="skills">
+    <div className="container" id="Competences">
       <motion.div
         initial={{opacity: 0}}
         whileInView={{y: [-50, 0], opacity: 1}}  
@@ -32,7 +32,7 @@ const Skills = () => {
       <motion.div
         initial={{opacity: 0}}
         whileInView={{y: [-50, 0], opacity: 1}}
-        className="skills"
+        className="Competences"
       >
         {active === 1 && icons.map((icon, index) => {
           return (
@@ -77,4 +77,4 @@ const Skills = () => {
   )
 }
 
-export default Skills
+export default Competences

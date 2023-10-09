@@ -4,9 +4,10 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+/* #131212; #101729*/
+
 body {
-    background: #131212;
-    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(to top, #0a4fb6, #004296, #003476, #002758, #021a3b);font-family: "Poppins", sans-serif;
     font-weight: 500;
 }
 img {
