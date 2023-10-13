@@ -33,7 +33,7 @@ const Portfolio = () => {
         whileInView={{ y: [-50, 0], opacity: 1 }}
         className="title"
       >
-        <span>Mes réalisations</span>
+        <span style={{color:"#D65182"}}>Mes réalisations</span>
         <h1>Mes projets personnels</h1>
       </motion.div>
       <motion.div

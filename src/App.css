@@ -7,7 +7,7 @@
 /* #131212; #101729*/
 
 body {
-    background-image: linear-gradient(to top, #0a4fb6, #004296, #003476, #002758, #021a3b);font-family: "Poppins", sans-serif;
+    background: #191f8cd4;font-family: "Poppins", sans-serif;
     font-weight: 500;
 }
 img {

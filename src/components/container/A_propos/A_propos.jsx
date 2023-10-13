@@ -13,7 +13,7 @@ const A_propos = () => {
         whileInView={{ y: [-50, 0], opacity: 1 }}
         className="title"
       >
-        <span>Qui suis je ?</span>
+        <span style={{color:"#D65182"}}>Qui suis je ?</span>
         <h1>A_propos</h1>
       </motion.div>
 

@@ -4,6 +4,12 @@ import { SiTypescript } from "react-icons/si";
 import { BsMedium } from "react-icons/bs";
 import portfolio from "./assets/portfolio.jpg"
 import work1 from "./assets/work1.png";
+import work7 from "./assets/work7.jpeg";
+import work8 from "./assets/work8.jpeg";
+import work9 from "./assets/work9.jpeg";
+import work10 from "./assets/work10.jpeg";
+import work11 from "./assets/work11.jpeg";
+import work12 from "./assets/work12.jpeg";
 import work2 from "./assets/work2.png";
 import work3 from "./assets/work3.png";
 import work4 from "./assets/work4.png";
@@ -89,7 +95,7 @@ export const finishes = [
 export const workImages = [
   {
     id: 1,
-    img: work1,
+    img: work7,
     name: "project 1",
     category: "web",
     link: "https://github.com/jeaneigsi/projetecom",
@@ -97,43 +103,43 @@ export const workImages = [
   },
   {
     id: 2,
-    img: work2,
+    img: work8,
     name: "project 2",
     category: "web",
-    link: "https://github.com/jeaneigsi/portfolio" ,
-    prev:"#"
+    link: "https://github.com/jeaneigsi/movieon" ,
+    prev:"https://movieon-topaz.vercel.app/"
   },
   {
     id: 3,
-    img: work3,
+    img: work9,
     name: "project 3",
     category: "web",
-    link: "https://github.com/jeaneigsi/portfolio" ,
-    prev:"#"
+    link: "https://github.com/jeaneigsi/pricechecker/tree/main" ,
+    prev:"https://pricewise-jsm.vercel.app/"
   },
   {
     id: 4,
-    img: work4,
+    img: work10,
     name: "project 4",
     category: "app" ,
-    link: "https://github.com/jeaneigsi/portfolio" ,
-    prev:"#"
+    link: "https://github.com/jeaneigsi/travelui/tree/main" ,
+    prev:"https://travelui.vercel.app/"
   },
   {
     id: 5,
-    img: work5,
+    img: work11,
     name: "project 5",
     category: 'app' ,
-    link: "https://github.com/jeaneigsi/portfolio" ,
-    prev:"#"
+    link: "https://github.com/jeaneigsi/crypto" ,
+    prev:"https://crypto-price-tracker-app-cor.vercel.app/"
   },
   {
     id: 6,
-    img: work6,
+    img: work12,
     name: "project 6",
     category: "design",
-    link: "https://github.com/jeaneigsi/portfolio" ,
-    prev:"#"
+    link: "https://github.com/jeaneigsi/quizzapp" ,
+    prev:"https://quizmify.vercel.app/"
   }
 ]
 

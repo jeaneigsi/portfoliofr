@@ -13,7 +13,7 @@ const Competences = () => {
         whileInView={{y: [-50, 0], opacity: 1}}  
         className="title"
       >
-        <span>Savoir faire & être ?</span>
+        <span style={{color:"#D65182"}}>Savoir faire & être ?</span>
         <h1>Compétences et Expériences</h1>
       </motion.div>
       <motion.div

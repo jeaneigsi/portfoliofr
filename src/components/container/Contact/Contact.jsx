@@ -12,7 +12,7 @@ const Contact = () => {
         whileInView={{ y: [-50, 0], opacity: 1 }}
         className="title"
       >
-        <span>Prendre rendez vous</span>
+        <span style={{color:"#D65182"}}>Prendre rendez vous</span>
         <h1>Me Contacter</h1>
       </motion.div>
       <div className="contact_form">
