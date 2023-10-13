@@ -145,7 +145,7 @@ export const workImages = [
 
 
 export const workNavs = [
-  "All", "Web", "App", "Design"
+  "Tout", "Web", "App", "Design"
 ]
 
 export const contacts = [
