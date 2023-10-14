@@ -65,7 +65,7 @@ const Contact = () => {
             transition={{ duration: 0.3 }}
             className="btn"
           >
-            <a href="#">Envoi</a>
+            <a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJfnbHCvVSCprljnSvbtsHKPTbvBbGKVvstdDZQbBzHjXQbZJtdXFzNGzKqVPQzWvtRLRPg">Envoi</a>
           </motion.div>
         </motion.div>
       </div>
